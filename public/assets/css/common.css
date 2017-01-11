@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffd941;
+}
+
+.overflow-hidden { overflow: hidden; }
+.display-none { display: none; }
+
+.cursor-pointer { cursor: pointer; }
+
+.clear-both { clear: both; }
+.clear-none { clear: none; }
+.float-left { float: left; }
+.float-right { float: right; }
+
+.margin-l-10 { margin-left: 10px; }
+.margin-r-10 { margin-right: 10px; }
+
+.margin-l-p5em { margin-left: .5em; }
+.margin-l-3em { margin-left: 3em; }
+.margin-l-5p { margin-left: 5%; }
+.margin-l-10p { margin-left: 10%; }
+.margin-t-p5em { margin-top: .5em; }
+.margin-t-1em { margin-top: 1em; }
+.margin-t-2em { margin-top: 2em; }
+.margin-t-3em { margin-top: 3em; }
+
+.w_40p { width: 40%; }
+
+.back-color-black { background-color: black; }
+.back-color-white { background-color: white; }
+.back-color-title { background-color: #cc3300; }
+
+.color-info { color: #4d4d4d; }
+.color-black { color: black; }
+
+.center-pos {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.box-shadow-bottom {
+    box-shadow: 0 10px 6px -4px rgba(0, 0, 0, 0.6);
+}
+
+
+.owl-item {
+    text-align: center;
+}
+
+.owl-item div {
+    height: 176px;
+    width: 100%;
+}
+
+.owl-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.owl-theme .owl-controls {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    left: 50%;
+    width: 20em;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: none;
+    width: 1.5em;
+    height: 1.5em;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    opacity: .9;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    opacity: .9;
+}
+
+.owl-theme .owl-controls .owl-page {
+    background-color: #1a1a1a;
+}
+
+.owl-button-oper {
+    display: inline-block;
+    background-color: #1a1a1a;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+.big-img .modal-dialog {
+    width: 90%;
+}
+.big-img .modal-body {
+    background-color: black;
+    text-align: center;
+}
+
+.big-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.navbar
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0;
+    opacity: 0.6;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(20, 20, 20, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #141414;
+}
+
+.title_text
+{
+    color: whitesmoke;
+    align-content: center;
+
+}
+
+.card 
+{
+    /*width: 250px;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: justify;
+}

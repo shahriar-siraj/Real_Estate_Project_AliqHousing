@@ -1,0 +1,27 @@
+.box-body > div {
+    width: 340px;
+    margin: 30px auto;
+    overflow: auto;
+    background-color: #F6F6F6;
+    padding: 20px;
+    font-size: 12px;
+}
+.float-right {
+    float: right;
+}
+.label {
+    margin-top: 15px;
+}
+.label label {
+    font-weight: 500;
+    color: black;
+    font-size: 12px;
+}
+.input {
+    margin-top: 7px;
+    width: 180px;
+}
+.save {
+    padding: 1rem;
+    text-align: center;
+}
